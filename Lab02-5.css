@@ -1,0 +1,34 @@
+body{background-color: #bda464;}
+
+h1{color: blue;}
+
+li{color: #0000ff;}
+
+p{background-color: orange;}
+
+h3{border: 5px red solid;}
+
+abbr{font-weight: bold; text-decoration: underline;}
+
+.explanation{color: red;}
+
+#zen-benefits p{background-color: pink;}
+
+li + h2{background-color: red;}
+
+p em{font-weight: bold; color: red;}
+
+a:visited{color: green;}
+
+body{font-family: 'Mochiy Pop P One', sans-serif;}
+
+h1{
+        display: block;
+        animation-name: spin;
+        animation-duration: 3s;
+      }
+@keyframes spin 
+{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
